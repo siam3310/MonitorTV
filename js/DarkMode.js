@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Función para activar el modo oscuro
   function activarModoOscuro() {
     document.body.classList.add('dark-mode');
-    document.getElementById('TextoBotonMostrarOcultarModoOscuro').textContent = 'MODO CLARO';
+    document.getElementById('TextoBotonMostrarOcultarModoOscuro').textContent = 'DAY';
     iconSpan.textContent = 'light_mode';
     cambiarClaseWaves('waves-azul', 'waves-modooscuro-azul');
     cambiarClaseWaves('waves-red', 'waves-modooscuro-rojo');
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Función para desactivar el modo oscuro
   function desactivarModoOscuro() {
     document.body.classList.remove('dark-mode');
-    document.getElementById('TextoBotonMostrarOcultarModoOscuro').textContent = 'MODO OSCURO';
+    document.getElementById('TextoBotonMostrarOcultarModoOscuro').textContent = 'NIGHT';
     iconSpan.textContent = 'dark_mode';
     cambiarClaseWaves('waves-modooscuro-azul', 'waves-azul');
     cambiarClaseWaves('waves-modooscuro-rojo', 'waves-red');
