@@ -1,10 +1,10 @@
 let LosCanales = [
     {
-        'titulo': 'BPL 2024 Draft',
+        'titulo': 'BPL',
         'id': 'bpldraft',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CANAL24H.svg"></img>',
+        'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">photo_camera</span>BPL 2024 Draft ',
         'tags' : ['Sports','Bangla'],
-        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=yt&link=mRYahD53jfI'
+        'url': ''
     },
     {
         'titulo': 'SPACEX MISSIONS',
