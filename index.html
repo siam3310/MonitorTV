@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC>
 <html lang="es">
 <head>
-  <title>MonitorTV</title>
+  <title>FREECATV Live</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -89,70 +89,18 @@
           </div>
           <!--<label for="tag-select">Categorias:</label>-->
           <select class="BotonMenuDesplegableGris" id="tag-select">
-            <option value="">Todos</option>
+            <option value="">Category</option>
             <optgroup label="Temas">
-              <option value="Nuevo">Nuevas Señales</option>
-              <option value="Europa">Europa</option>
-              <option value="LatinoAmerica">Latinoamérica</option>
-              <option value="Noticias">Noticias</option>
-              <option value="Ocasional">Ocasionales</option>
-              <option value="Video News">Video News</option>
               <option value="Youtube">Youtube</option>
             </optgroup>
             <optgroup label="Paises">
               <option value="Argentina">Argentina</option>
               <option value="Alemania">Alemania</option>
-              <option value="Brasil">Brasil</option>
-              <option value="Bolivia">Bolivia</option>
-              <option value="Catar">Catar</option>
-              <option value="Chile">Chile</option>
-              <option value="China">China</option>
-              <option value="Colombia">Colombia</option>
-              <option value="Corea del Norte">Corea del Norte</option>
-              <option value="Corea del Sur">Corea del Sur</option>
-              <option value="Ecuador">Ecuador</option>
-              <option value="España">España</option>
-              <option value="Estados Unidos">Estados Unidos</option>
-              <option value="Francia">Francia</option>
-              <option value="Filipinas">Filipinas</option>
-              <option value="Guatemala">Guatemala</option>
-              <option value="Italia">Italia</option>
-              <option value="Israel">Israel</option>
-              <option value="Iran">Iran</option>
-              <option value="Indonesia">Indonesia</option>
-              <option value="Japon">Japon</option>
-              <option value="Mexico">Mexico</option>
-              <option value="Noticiasx">Noticias</option>
-              <option value="Peru">Peru</option>
-              <option value="Paraguay">Paraguay</option>
-              <option value="Reino Unido">Reino Unido</option>
-              <option value="Rusia">Rusia</option>
-              <option value="Singapore">Singapore</option>
-              <option value="Türkiye">Türkiye</option>
-              <option value="Ucrania">Ucrania</option>
-              <option value="Vaticano">Vaticano</option>
-              <option value="Venezuela">Venezuela</option>
-            </optgroup>
-            <optgroup label="Regiones Chile">
-              <option value="Arica">Arica</option>
-              <option value="Tarapaca">Tarapaca</option>
-              <option value="Antofagasta">Antofagasta</option>
-              <option value="Atacama">Atacama</option>
-              <option value="Coquimbo">Coquimbo</option>
-              <option value="Valparaiso">Valparaiso</option>
-              <option value="Santiago">Santiago</option>
-              <option value="Ohiggins">Ohiggins</option>
-              <option value="Maule">Maule</option>
-              <option value="Bio Bio">Bio Bio</option>
-              <option value="Araucania">Araucania</option>
-              <option value="Los Lagos">Los Lagos</option>
-              <option value="Aysen">Aysen</option>
-              <option value="Magallanes">Magallanes</option>
             </optgroup>
           </select>
           <div style="display: flex;">
             <!-- BOTON LIMPIAR SEÑALES -->
-            <div style="margin-bottom: 0px;" class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" id="BorrarLaSeñal"><span style="margin-right: 5px;" class="material-icons-round">delete</span><text>LIMPIAR</text></div>
+            <div style="margin-bottom: 0px;" class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" id="BorrarLaSeñal"><span style="margin-right: 5px;" class="material-icons-round">delete</span><text>CLEAR</text></div>
             <span style="margin-left: 2%;"></span>
             <!-- BOTON MENU AJUSTES -->
             <div style="margin-bottom: 0px;" class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons-round">settings</span><text>MENU</text></div>
@@ -167,7 +115,7 @@
     <div style="padding-left: 20px; padding-right: 20px; padding-bottom: 0px;" class="offcanvas-header">
       <span class="DivTituloMenuAjustes">
         <span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">tune</span>
-        <span> AJUSTES - MONITOR TV</span>
+        <span> Adjust - FREECATV</span>
       </span>
       <span class="BotonCerrarMenuCuadrado waves-effect waves-grisclaro" data-bs-dismiss="offcanvas" aria-label="Close">
         <span style="font-size: 30px;" class="material-icons-round">close</span>
@@ -175,10 +123,10 @@
     </div>
     <div class="offcanvas-body">
       <div class="CuerpoMenuDesplegable">
-        <a style="text-decoration: none;" href="Home.html" ><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons-round">home</span>IR AL HOME</span></a>
+        <a style="text-decoration: none;" href="/" ><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons-round">home</span>HOME</span></a>
         <br>
-        <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustesAccesibilidad" role="button" aria-controls="MenuDespeglableAjustesAccesibilidad"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons-round">settings_accessibility</span>AJUSTES DE ACCESIBILIDAD</span></a>
-        <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons-round">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
+        <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustesAccesibilidad" role="button" aria-controls="MenuDespeglableAjustesAccesibilidad"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons-round">settings_accessibility</span>Accessbility</span></a>
+        <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons-round">open_in_full</span><text>Full Screen</text></div>
         <div class="ContenedorBotonMenuDesplegableDoble">
           <div onclick="window.open('MonitorTV.html','popup','width=1280,height=720'); return false;" class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul">
             <span style="margin-right: 5px;" class="material-icons-round">open_in_browser</span>
@@ -187,7 +135,7 @@
           <span style="margin-left: 2%;"></span>
           <a class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul" style="text-decoration: none;" href="javascript:location.reload()">
             <span style="margin-right: 5px;" class="material-icons-round">replay</span>
-            RECARGAR PAGINA
+            REFRESH
           </a>
         </div>
       </div> 
