@@ -115,10 +115,82 @@ let LosCanales = [
         'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://8r1fp7ro6am.a.trbcdn.net/SportTV6/index.m3u8'
     },  {
         'titulo': 'Siam  ',
-        'id': 'sportstv2',
-         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>SPORTS TV 2',
+        'id': 'footballru',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Football RU',
         'tags' : ['Sports'],
-        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://8r1fp7ro6am.a.trbcdn.net/SportTV2/index.m3u8'
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://f77zvuxbr89.a.trbcdn.net/reserv9/index.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'arena1',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Arena Sports 1',
+        'tags' : ['Sports'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://f77zvuxbr89.a.trbcdn.net/reserv11/index.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'arena2',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Arena Sports 2',
+        'tags' : ['Sports'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://f77zvuxbr89.a.trbcdn.net/reserv12/index.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'arena4',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Arena Sports 4',
+        'tags' : ['Sports'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://f77zvuxbr89.a.trbcdn.net/reserv14/index.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'arena7',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Arena Sports 7',
+        'tags' : ['Sports'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://f77zvuxbr89.a.trbcdn.net/reserv17/index.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'tv85',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>TV85',
+        'tags' : ['Sports'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://hw1.jemtv.com/app/tv85/chunks.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'asiantv',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Asian TV',
+        'tags' : ['Bangla','News'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://mtlivestream.com/asian/ytlive/index.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'travelxp',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Travel XP',
+        'tags' : ['Foreign'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'sportsconnect',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Sports Connect',
+        'tags' : ['Sports'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://origin3.afxp.telemedia.co.za/PremiumFree/sportsconnect/playlist.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'senata1',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Senata 1 Laliga',
+        'tags' : ['Sports'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://25axin5tbn8.a.trbcdn.net/Setanta1_La_Liga/index.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'senata2',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Senata 2 Laliga',
+        'tags' : ['Sports'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://25axin5tbn8.a.trbcdn.net/Setanta2_La_Liga/index.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'senataua',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Senata UA',
+        'tags' : ['Sports'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://s44gx6hkds2.a.trbcdn.net/SetantaUA/index.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'ekushey',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Ekushey TV',
+        'tags' : ['Bangla','News'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://ekusheyserver.com/etvlivesn.m3u8'
     },
 
 
