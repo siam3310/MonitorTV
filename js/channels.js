@@ -1,10 +1,10 @@
 let LosCanales = [
     {
-        'titulo': '24 PLAY',
-        'id': '24PLAY',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CANAL24H.svg"></img>',
-        'tags' : ['Chile','Noticias'],
-        'url': '../Monitores/Senal/24HTVN_IFRAME.html'
+        'titulo': 'India Today',
+        'id': 'indiatoday',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span>',
+        'tags' : ['News','Indian'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8'
     }, {
         'titulo': 'CNN CHILE',
         'id': 'CNN_CHILE',
