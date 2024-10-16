@@ -191,7 +191,50 @@ let LosCanales = [
          'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Ekushey TV',
         'tags' : ['Bangla','News'],
         'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://ekusheyserver.com/etvlivesn.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'deeptotv',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Deepto TV',
+        'tags' : ['Bangla','News'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'maasrangatv',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Maasranga TV',
+        'tags' : ['Bangla','News','Cartoon'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'mytv',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>My TV',
+        'tags' : ['Bangla','News'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://mytvbangla.com/0.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'rajdhanitv',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Rajdhani TV',
+        'tags' : ['Bangla','News'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://cdn.ncare.live/live-orgin/rajdhanitv.stream/chunks.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'deshitv',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Deshi TV',
+        'tags' : ['Bangla','News'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://deshitv.deshitv24.net/live/myStream/playlist.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'enterr10bangla',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Enterr10 Bangla',
+        'tags' : ['Bangla'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'enterr10bangla',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Enterr10 Bangla',
+        'tags' : ['Bangla'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8'
     },
+        
 
 
 
