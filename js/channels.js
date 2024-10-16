@@ -6,12 +6,6 @@ let LosCanales = [
         'tags' : ['Sports','Bangla'],
         'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=yt&link=mRYahD53jfI'
     },  {
-        'titulo': 'India Today',
-        'id': 'indiatoday',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span> India Today',
-        'tags' : ['News','Indian'],
-        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8'
-    },  {
         'titulo': 'TSPORTS ',
         'id': 'tsports1',
          'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>TSPORTS 1',
@@ -25,6 +19,48 @@ let LosCanales = [
         'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://freecatv.vercel.app/tsports.m3u8'
     },  {
         'titulo': 'Siam  ',
+        'id': 'ekushey',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Ekushey TV',
+        'tags' : ['Bangla','News'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://ekusheyserver.com/etvlivesn.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'deeptotv',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Deepto TV',
+        'tags' : ['Bangla','News'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'maasrangatv',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Maasranga TV',
+        'tags' : ['Bangla','News','Cartoon'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'mytv',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>My TV',
+        'tags' : ['Bangla','News'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://mytvbangla.com/0.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'rajdhanitv',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Rajdhani TV',
+        'tags' : ['Bangla','News'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://cdn.ncare.live/live-orgin/rajdhanitv.stream/chunks.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'deshitv',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Deshi TV',
+        'tags' : ['Bangla','News'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://deshitv.deshitv24.net/live/myStream/playlist.m3u8'
+    }, {
+        'titulo': 'Siam  ',
+        'id': 'enterr10bangla',
+         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Enterr10 Bangla',
+        'tags' : ['Bangla'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8'
+    }, {
+        'titulo': 'Siam  ',
         'id': 'sportstv1',
          'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>SPORT TV 1',
         'tags' : ['Sports'],
@@ -37,7 +73,7 @@ let LosCanales = [
         'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://live2.beinconnect.us/YallaGoalApp/beINSports1.m3u8'
     },  {
         'titulo': 'Siam  ',
-        'id': 'beinsports1',
+        'id': 'beinsports2',
          'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>BEIN SPORTS 2',
         'tags' : ['Sports'],
         'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://live2.beinconnect.us/YallaGoalApp/beINSports2.m3u8'
@@ -186,47 +222,11 @@ let LosCanales = [
         'tags' : ['Sports'],
         'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://s44gx6hkds2.a.trbcdn.net/SetantaUA/index.m3u8'
     }, {
-        'titulo': 'Siam  ',
-        'id': 'ekushey',
-         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Ekushey TV',
-        'tags' : ['Bangla','News'],
-        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://ekusheyserver.com/etvlivesn.m3u8'
-    }, {
-        'titulo': 'Siam  ',
-        'id': 'deeptotv',
-         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Deepto TV',
-        'tags' : ['Bangla','News'],
-        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8'
-    }, {
-        'titulo': 'Siam  ',
-        'id': 'maasrangatv',
-         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Maasranga TV',
-        'tags' : ['Bangla','News','Cartoon'],
-        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8'
-    }, {
-        'titulo': 'Siam  ',
-        'id': 'mytv',
-         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>My TV',
-        'tags' : ['Bangla','News'],
-        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://mytvbangla.com/0.m3u8'
-    }, {
-        'titulo': 'Siam  ',
-        'id': 'rajdhanitv',
-         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Rajdhani TV',
-        'tags' : ['Bangla','News'],
-        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://cdn.ncare.live/live-orgin/rajdhanitv.stream/chunks.m3u8'
-    }, {
-        'titulo': 'Siam  ',
-        'id': 'deshitv',
-         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Deshi TV',
-        'tags' : ['Bangla','News'],
-        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://deshitv.deshitv24.net/live/myStream/playlist.m3u8'
-    }, {
-        'titulo': 'Siam  ',
-        'id': 'enterr10bangla',
-         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>Enterr10 Bangla',
-        'tags' : ['Bangla'],
-        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8'
+        'titulo': 'India Today',
+        'id': 'indiatoday',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span> India Today',
+        'tags' : ['News','Indian'],
+        'url': 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8'
     }, {
         'titulo': 'Siam  ',
         'id': 'enterr10bangla',
